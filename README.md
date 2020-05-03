@@ -1,2 +1,4 @@
-# Data-Science-Snippets
-Several DS snippets I found useful
+# Fanchart function and pandas profiling
+Snippets
+
+![Fan chart](FanChart.png)
