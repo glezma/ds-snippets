@@ -1,4 +1,4 @@
 # Fanchart function and pandas profiling
 Snippets
 
-![Fan chart](FanChart.png)
+![Fan chart](image\FanChart.png)
