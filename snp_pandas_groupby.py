@@ -61,3 +61,9 @@ df_upvt= df.pivot(index=index, columns=columns, values=values).reset_index()
 df_upvt.UNITS=df_upvt.UNITS.fillna(df_upvt.GMS*0)
 
 df_upvt['ASP'] = df_upvt.GMS.divide(df_upvt.UNITS,fill_value=np.nan)
+
+
+# % converting text to datetime format '%Y.%m'
+
+df['time']= pd.to_datetime(df['time'].astype(str)).dt.strftime('%Y.%m')
+
